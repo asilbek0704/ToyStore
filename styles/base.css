@@ -1,0 +1,93 @@
+:root {
+    --main: #F8F8F8;
+    --extra: #A5C926;
+    --text: #111111;
+    --basket: #222222;
+    --logo: #333333;
+    --eCommerce-text: #999999;
+    --stuffed: #FFC12C;
+    --wooden: #FB416B;
+    --footer-border: #ffffff40;
+    --link-border: #DDDDDD;
+    --section-border: #E5E5E5;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    src: url("../fonts/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Varela Round';
+    font-weight: 400;
+    src: url("../fonts/Varela_Round/VarelaRound-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p, ul, ol {
+    margin-bottom: 0;
+}
+
+button {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+body {
+    background: var(--main);
+    color: var(--text);
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
